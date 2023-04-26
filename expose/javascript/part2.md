@@ -29,6 +29,11 @@
     E. `true == 2` outputs false because true converts to the number value of 1 and 1 != 2<br>
     F. `true ==== Boolean(2)` outputs true because convertng any non-zero value to boolean results in true<br>
 15. The `==` operator converts operands of different types to numbers while the `===` operator checks equality without type conversion to check if the operands are also of the same type
-16. 
+16. ['question 16'](part2-question16.js)
+17. The function returns the array `[2,4,6]`. When modifyArray is called with the array parameter as [1,2,3] and the callback parameter as `doSomething`, it first creates a constant array `newArr`. Then, for each value in `array`, the for loop calls `doSomething` and multiplies the current array value by 2 and pushes it to `newArr`. After `array` has been iterated through, modifyArray returns `newArr` which should just be the original values of `array` multiplied by 2.
+18. ['question 18'](part2-question18.js)
+19. 1 <br>
+    4 <br>
+    3 <br>
+    2 <br>
 
-    

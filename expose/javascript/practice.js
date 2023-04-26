@@ -41,4 +41,27 @@ console.log(discountPrices([100,200,300],0.5));*/
 //student.greeting()
 console.log(student.courseLoad[0]);*/
 
-console.log(true === Boolean(2));
+//console.log(true === Boolean(2));
+
+/*function modifyArray(array, callback) {
+    const newArr = [];
+    for(let i = 0; i < array.length; i++){
+        newArr.push(callback(array[i]));
+    }
+    return newArr;
+}
+
+function doSomething(num){
+    return num * 2;
+}
+
+console.log(modifyArray([1,2,3], doSomething));*/
+
+function printNums() {
+    console.log(1);
+    setTimeout(function() { console.log(2); }, 1000);
+    setTimeout(function() { console.log(3); }, 0);
+    console.log(4);
+}
+
+printNums();
